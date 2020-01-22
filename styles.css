@@ -1,0 +1,128 @@
+body {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: hsl(193, 100%, 96%);
+}
+
+h5, h4 {
+  margin-bottom: 20px;
+}
+
+a {
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+.logo-img {
+  margin-top: 50px;
+  height: 100%;
+  width: 20%;
+}
+
+.first-btn {
+  border-radius: 24px;
+  box-shadow: 1px 2px 3px #b3b3b3;
+  width: 20%;
+  height: 8%;
+  min-width: 150px;
+  background-color: white;
+  position: absolute;
+  right: 5px;
+  top: 50px;
+}
+
+.mockups {
+  width: 100%;
+  height: 100%;
+}
+
+.second-btn {
+  border-radius: 24px;
+  width: 300px;
+  background-color: #ff4dd2;
+}
+
+.second-btn:hover {
+  background-color: #ff1ac6;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 4px #b3b3b3;
+  margin-bottom: 5px;
+}
+
+.register {
+  width: 55%;
+  min-width: 400px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  margin: auto;
+  overflow: auto;
+  z-index: 1;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  position: absolute;
+  width: 100%;
+}
+
+.footer-logo {
+  margin-top: 100px;
+  margin-left: 25px;
+  color: white;
+  filter: brightness(0) invert(1);
+}
+
+.icon {
+  padding-right: 0.5em;
+}
+
+.fab {
+  margin-right: 5px;
+  padding: 5px;
+  color: white;
+  border: solid;
+  border-radius: 100%;
+  border-width: thin;
+}
+
+@media screen and (max-width: 992px) {
+  h1, h2, p, h3, button {
+    text-align: center;
+  }
+
+  .first-btn {
+    width: 10%;
+    height: 5.5%;
+  }
+
+  .second-btn {
+    display: block;
+    margin: auto;
+  }
+  /* Reverse div in cards from stackoverflow having class "reverse" */
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .col-lg-7,
+  .col-lg-5 {
+    height: auto;
+  }
+
+  .social{
+    text-align: center;
+  }
+}
